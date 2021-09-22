@@ -1,0 +1,19 @@
+paper {
+  color: beige;
+  text-emphasis: center;
+}
+
+textBody {
+  position: absolute;
+  
+}
+
+window {
+  color: brown;
+
+}
+
+glass {
+  color: skyblue;
+  opacity: 0.2;
+}
