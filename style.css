@@ -1,19 +1,60 @@
-paper {
-  color: beige;
-  text-emphasis: center;
+.body {
+  backgroud-color: #445EAB;
+  margin: auto;
+  padding: 10px;
+  left: 25px;
 }
 
-textBody {
+
+.title {
+
+}
+
+
+.paper {
+  background-color: beige;
   position: absolute;
-  
+  top: 45%;
+  left: 30%;
+  right: 30%;
 }
 
-window {
+
+.textBody {
+  color: black;
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+
+.window {
   color: brown;
 
 }
 
-glass {
+
+.glass {
   color: skyblue;
   opacity: 0.2;
+}
+
+
+.nav {
+  display: inline;
+}
+
+
+.navBar {
+  position: fixed;
+  margin: auto;
+  top: -50px;
+  transition: top 0.3s;
+
+  width: 100%;
+  height: 5%;
+
+  border: 1px;
+  border-color: #44AB74;
 }
