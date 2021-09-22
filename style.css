@@ -17,13 +17,16 @@
   top: 45%;
   left: 30%;
   right: 30%;
+
+  padding: 50px;
+  margin: auto;
 }
 
 
 .textBody {
   color: black;
-  padding: 5%;
-  margin: 5%;
+  /* padding: 5%; */
+  /* margin: 5%; */
   text-align: center;
   width: 100%;
 }
