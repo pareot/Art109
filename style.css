@@ -1,3 +1,5 @@
+@import url;
+
 .body {
   backgroud-color: #445EAB;
   margin: auto;
@@ -6,9 +8,15 @@
 }
 
 
-.title {
 
+.audio {
+  background-color: red;
+  opacity: 0.2;
+  position: absolute;
+  top: 5%;
+  left: 5px;
 }
+
 
 
 .paper {
@@ -23,6 +31,7 @@
 }
 
 
+
 .textBody {
   color: black;
   /* padding: 5%; */
@@ -32,9 +41,9 @@
 }
 
 
+
 .window {
   color: brown;
-
 }
 
 
