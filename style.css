@@ -22,6 +22,12 @@
   width: 10%;
   size: 10%;
 }
+/* move audio control as screen get less than 800px */
+@media screen and (max-width: 800px) {
+  .soundRain {
+    top: 85%;
+  }
+}
 
 /* script hide element ref: https://www.w3schools.com/howto/howto_css_display_element_hover.asp */
 /* .hide {
