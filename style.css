@@ -24,16 +24,18 @@
 }
 
 /* script hide element ref: https://www.w3schools.com/howto/howto_css_display_element_hover.asp */
-.hide {
+/* .hide {
   position: absolute;
   top: 25px;
   display: none;
+  transition:0s 180s;
 }
 
 .myDIV:hover + .hide {
   display: block;
   color: beige;
-}
+  transition:0s 180s;
+} */
 
 
 /* script ref: https://www.w3schools.com/howto/howto_js_navbar_slide.asp */
