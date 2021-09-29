@@ -2,6 +2,7 @@
 .pageContainer {
   background-color: grey;
 }
+
 .paper {
   background-color: beige;
   padding: 40px;
@@ -10,11 +11,30 @@
   width: 50%;
 }
 
-
-.soundRain {
-  top: 50px;
-  left: 50px;
+.textContainer {
+  color: beige;
+  text-align: left;
 }
+.soundRain {
+  position: fixed;
+  top: 25px;
+  left: 20px;
+  width: 10%;
+  size: 10%;
+}
+
+/* script hide element ref: https://www.w3schools.com/howto/howto_css_display_element_hover.asp */
+.hide {
+  position: absolute;
+  top: 25px;
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: beige;
+}
+
 
 /* script ref: https://www.w3schools.com/howto/howto_js_navbar_slide.asp */
 #soundContainer {

@@ -36,14 +36,21 @@
       <!--     audio -->
       <!--     script ref: https://www.w3schools.com/jsref/prop_audio_volume.asp -->
       <div class="soundRain">
-        <div class="soundContainer">
-          <audio id="myAudio" controls autoplay loop>
-            <source
-              src="https://cdn.glitch.com/b4e565dc-4bbe-4daf-99c6-b6d9cc3473cd%2Fmixed%20Rain%20with%20Bird_1.mp4?v=1632942940914"
-              type="audio/ogg"
-            />
-            Your browser does not support the audio element.
-          </audio>
+        <div class="myDIV">
+          <div class="textContainer">
+            Hover for audio control
+          </div>
+        </div>
+        <div class="hide">
+          <div class="soundContainer">
+            <audio id="myAudio" controls autoplay loop>
+              <source
+                src="https://cdn.glitch.com/b4e565dc-4bbe-4daf-99c6-b6d9cc3473cd%2Fmixed%20Rain%20with%20Bird_1.mp4?v=1632942940914"
+                type="audio/ogg"
+              />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
         </div>
       </div>
 
@@ -53,14 +60,6 @@
 
         function getVolume() {
           alert(x.volume);
-        }
-
-        function setHalfVolume() {
-          x.volume = 0.2;
-        }
-
-        function setFullVolume() {
-          x.volume = 1.0;
         }
       </script>
 
