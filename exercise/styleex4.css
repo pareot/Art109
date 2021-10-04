@@ -1,0 +1,11 @@
+.mainDiv {
+  position: relative;
+  width: 75%;
+
+}
+
+.imageContainer {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
